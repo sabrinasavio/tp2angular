@@ -1,0 +1,3 @@
+<app-nuevo-libro (agregarUnNuevoLibro)="agregarLibroALista()"></app-nuevo-libro>
+<app-lista-libro [libros]="lista" (agregarLibroPrestado)="agregarLibroPrestado($event)" [libroModificado]="listaActualizados"></app-lista-libro>
+<app-prestar-libro [librosPrestados]="listaPrestados" (actualizarElLibro)="actualizoLibro($event)"></app-prestar-libro>

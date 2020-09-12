@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    color: blue;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.table{
+    text-align: center;
+}
+
+.contenedor {
+    background-image: url(https://image.freepik.com/foto-gratis/biblioteca-libros_1063-98.jpg);    
+    background-size: 100mm;
+}
+
+.subcontenedor {
+    padding-top: 1cm;
+    align-content: center;
+    background-color: ivory;
+    width: 80%; 
+    text-align: center;
+    text-justify: auto;
+    margin: auto;
+    opacity:85%;
+    border-style: double;
+}
